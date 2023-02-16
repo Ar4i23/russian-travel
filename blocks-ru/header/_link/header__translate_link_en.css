@@ -1,0 +1,24 @@
+.header__translate_link_en {
+  width: 30px;
+  height: 28px;
+  color: #fff;
+  display: block;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 28px;
+  text-decoration: none;
+  position: relative;
+}
+.header__translate_link_en::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.header__translate_link_en:hover::before {
+  width: 100%;
+}

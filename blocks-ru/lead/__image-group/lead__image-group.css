@@ -1,0 +1,32 @@
+.lead__image-group {
+  position: absolute;
+  width: 100%;
+  max-width: 937px;
+  max-height: 262px;
+  left: 23.27px;
+  top: 91.21px;
+}
+@media (max-width: 1024px) {
+  .lead__image-group {
+    max-width: 882px;
+    max-height: 248px;
+    left: 22px;
+    top: 85px;
+  }
+}
+@media (max-width: 768px) {
+  .lead__image-group {
+    max-width: 731px;
+    max-height: 205px;
+    left: 18px;
+    top: 70px;
+  }
+}
+@media (max-width: 320px) {
+  .lead__image-group {
+    max-width: 304px;
+    max-height: 85px;
+    left: 7.5px;
+    top: 29px;
+  }
+}
