@@ -22,8 +22,8 @@
 @import url(../blocks-ru/places/places.css);
 @import url(../blocks-ru/place/place.css);
 @import url(../blocks-ru/place/__website/place__website.css);
-@import url(../blocks-ru/place/__website/__url-heading/website__url-heading.css);
-@import url(../blocks-ru/place/__website/__link/website__link.css);
+@import url(../blocks-ru/place/__website/__website-link/place__website-link.css);
+@import url(../blocks-ru/place/__website/__website-url-heading/place__website-url-heading.css);
 @import url(../blocks-ru/place/__title/place__title.css);
 @import url(../blocks-ru/place/__paragraph/place__paragraph.css);
 @import url(../blocks-ru/place/__image/place__image.css);
