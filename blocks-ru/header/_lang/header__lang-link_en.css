@@ -1,4 +1,4 @@
-.header__translate_link_en {
+.header__lang-link_en {
   width: 30px;
   height: 28px;
   color: #fff;
@@ -9,7 +9,7 @@
   text-decoration: none;
   position: relative;
 }
-.header__translate_link_en::before {
+.header__lang-link_en::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -19,6 +19,6 @@
   background-color: #fff;
   transition: 0.2s;
 }
-.header__translate_link_en:hover::before {
+.header__lang-link_en:hover::before {
   width: 100%;
 }
