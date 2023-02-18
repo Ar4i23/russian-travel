@@ -1,5 +1,4 @@
-.cover__overlay::after {
-  content: "";
+.cover__overlay {
   width: 100%;
   max-width: 1184px;
   height: 740px;
@@ -9,26 +8,26 @@
   opacity: 0.3;
   z-index: 1;
   background: #2a2c2f;
-  background-image: url(../img/overlay.png);
+  background-image: url(../../../img/overlay.png);
 }
 .cover__overlay:hover {
   background: #2a2c2f;
   opacity: 0.8;
 }
 @media (max-width: 1024px) {
-  .cover__overlay::after {
+  .cover__overlay {
     max-width: 1024px;
     max-height: 640px;
   }
 }
 @media (max-width: 768px) {
-  .cover__overlay::after {
+  .cover__overlay {
     max-width: 768px;
     max-height: 480px;
   }
 }
 @media (max-width: 320px) {
-  .cover__overlay::after {
+  .cover__overlay {
     max-width: 320px;
     max-height: 200px;
   }
