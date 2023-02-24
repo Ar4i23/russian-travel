@@ -4,14 +4,15 @@
   text-align: center;
   font-weight: 400;
   font-size: 1.12em;
+  margin: 0;
   line-height: 22px;
+  color: #fff;
   z-index: 2;
 }
 @media (max-width: 320px) {
   .cover__subtitle {
-    max-width: 288px;
+    max-width: 265px;
     font-weight: 400;
-    padding: 0 11px;
     font-size: 0.87em;
     line-height: 16px;
   }

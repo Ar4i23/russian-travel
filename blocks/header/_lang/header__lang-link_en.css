@@ -5,7 +5,7 @@
   display: block;
   font-weight: 400;
   font-size: 1.5em;
-  line-height: 28px;
+  line-height: 1.17;
   text-decoration: none;
   position: relative;
 }
@@ -21,4 +21,14 @@
 }
 .header__lang-link_en:hover::before {
   width: 100%;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link_en {
+    width: 22px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }

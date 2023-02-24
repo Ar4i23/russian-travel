@@ -9,13 +9,12 @@
   font-size: 4.5em;
   line-height: 76px;
   text-decoration: none;
-  z-index: 2;
+  z-index: 4;
 }
 @media (max-width: 320px) {
   .cover__title {
-    max-width: 288px;
+    max-width: 255px;
     margin-bottom: 16px;
-    padding: 0 18px;
     font-weight: 900;
     font-size: 2em;
     line-height: 35px;

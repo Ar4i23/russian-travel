@@ -1,8 +1,11 @@
 .lead__caption {
+  margin: 0;
   display: flex;
   font-weight: 400;
   font-size: 0.6em;
   line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 @media (max-width: 1024px) {
   .lead__caption {
@@ -18,7 +21,7 @@
 }
 @media (max-width: 320px) {
   .lead__caption {
-    max-width: 158px;
+    max-width: 165px;
     margin-left: 16px;
   }
 }

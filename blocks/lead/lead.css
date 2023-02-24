@@ -14,11 +14,12 @@
   .lead {
     max-width: 768px;
     height: 862px;
+    margin: 0px auto 88px;
   }
 }
 @media (max-width: 320px) {
   .lead {
     max-width: 320px;
-    height: 406px;
+    height: 382px;
   }
 }

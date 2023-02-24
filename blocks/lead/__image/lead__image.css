@@ -3,13 +3,9 @@
   max-width: 984px;
   height: 615px;
   margin: 0 auto;
-  background-image: url(../../../img/img_lead.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 8px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
+  margin-bottom: 5px;
+  object-fit: contain;
+  object-position: center;
 }
 @media (max-width: 1024px) {
   .lead__image {

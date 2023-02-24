@@ -1,9 +1,11 @@
 .footer__list {
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 @media (max-width: 320px) {
   .footer__list {
-    height: 240px;
+    height: 251px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -1,4 +1,9 @@
 .header__lang-link {
   display: flex;
-  align-items: end;
+  margin-bottom: 3px;
+}
+@media (max-width: 320px) {
+  .header__lang-link {
+    margin-bottom: 4px;
+  }
 }
