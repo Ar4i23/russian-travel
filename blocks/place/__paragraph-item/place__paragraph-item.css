@@ -1,12 +1,21 @@
 .place__paragraph-item {
   margin: 0;
+  font-weight: 400;
+  font-size: 1.12em;
+  line-height: 163%;
 }
-
-.place__paragraph-item:nth-child(2) {
-  margin-top: 26px;
-}
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .place__paragraph-item:nth-child(2) {
     margin-top: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .place__paragraph-item {
+    font-size: 1em;
+  }
+}
+@media (max-width: 320px) {
+  .place__paragraph-item:nth-child(2) {
+    margin-top: 0;
   }
 }

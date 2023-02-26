@@ -9,19 +9,6 @@
   text-decoration: none;
   position: relative;
 }
-.header__lang-link_en::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #fff;
-  transition: 0.2s;
-}
-.header__lang-link_en:hover::before {
-  width: 100%;
-}
 
 @media (max-width: 320px) {
   .header__lang-link_en {
