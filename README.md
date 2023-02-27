@@ -17,4 +17,4 @@
 
 **Мой сайт**
 
-Ссылка на [мой проек](https://ar4i23.github.io/russian-travel/index-ru.html)
+Ссылка на [мой проек](https://ar4i23.github.io/russian-travel/index.html)
