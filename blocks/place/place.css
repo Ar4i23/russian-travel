@@ -18,7 +18,7 @@
 }
 @media (max-width: 768px) {
   .place {
-    margin-bottom: 71px;
+    margin-bottom: 73px;
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr;
     column-gap: 28px;
@@ -31,12 +31,12 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
   }
-  .place:nth-child(1) {
+  /* .place:nth-child(1) {
     margin-bottom: 75px;
   }
   .place:nth-child(4) {
     margin-bottom: 75px;
-  }
+  } */
 }
