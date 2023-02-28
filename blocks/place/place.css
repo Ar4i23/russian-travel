@@ -27,15 +27,12 @@
 @media (max-width: 630px) {
   .place {
     display: flex;
-    text-align: center;
     flex-direction: column;
     text-align: start;
   }
 }
 @media (max-width: 320px) {
   .place {
-    display: flex;
-    flex-direction: column;
     row-gap: 32px;
     margin-bottom: 50px;
   }
