@@ -8,7 +8,7 @@
   box-sizing: border-box;
   position: relative;
   background-image: url(../../../images/background_cover.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
