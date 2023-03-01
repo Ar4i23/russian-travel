@@ -1,7 +1,7 @@
 /** @format */
 
 .footer {
-  width: 100%;
+  width: calc(100% - 48px * 2);
   max-width: 1184px;
   margin: 0 auto;
   margin-bottom: 24px;
